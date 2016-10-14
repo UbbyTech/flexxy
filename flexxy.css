@@ -1,3 +1,14 @@
+/*
+
+	# Licensed under MIT (https://github.com/ubbytech/flexxy)
+	# Copyright 2016 UbbyTech, Inc.
+	# Copyright 2016 The Flexxy Authors.
+
+*/
+
+
+
+
 
 /* The following defaultqq presets baseline styles */
 
@@ -45,7 +56,18 @@ a
 	text-decoration:none;
 	display:block;
 	font-family:"Comic Sans MS", cursive;
+	color:#281B1B;
 
+}
+
+a:visited, a:link
+{
+	color:#281B1B;
+}
+
+a:hover, a:active
+{
+	color:#281B1B;
 }
 
 ul
@@ -102,6 +124,7 @@ input
 {
 	padding:-15px;
 	padding:-15px;
+	clear:both;
 }
 
 
@@ -110,5 +133,7 @@ input
 .col9, .col10, .col11, .col12
 {
 	margin-left:10px;
-	margin-right:1
+	margin-right:10px;
+	float:left;
 }
+
