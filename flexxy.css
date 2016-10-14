@@ -117,14 +117,68 @@ input
 	display:-moz-flex;
 	display:-o-flex;
 	-display:flex;
+	padding:0;
 }
 
+@media(min-width: 420px)
+{
+	.container
+	{
+		width:420px;
+	}
+}
+
+@media(min-width: 660px)
+{
+	.container
+	{
+		width:660px;
+	}
+}
+
+@media(min-width: 720px)
+{
+	.container
+	{
+		width:720px;
+	}
+}
+
+@media(min-width: 800px)
+{
+	.container
+	{
+		width:800px;
+	}
+}
+
+@media(min-width: 960px)
+{
+	.container
+	{
+		width:960px;
+	}
+}
+
+@media(min-width: 1080px) /* for 1080 screens */
+{
+	.container
+	{
+		width:1080px;
+	}
+}
 
 .row
 {
 	padding:-15px;
 	padding:-15px;
+}
+
+.row::after
+{
+	content:"";
 	clear:both;
+	display:block;
 }
 
 
@@ -137,3 +191,63 @@ input
 	float:left;
 }
 
+
+.col1
+{
+	width:8.22%;
+}
+
+.col2
+{
+	width:16.44%;
+}
+
+.col3
+{
+	width:26.66%;
+}
+
+.col4
+{
+	width:35%;
+}
+
+.col5
+{
+	width:43.22%;
+}
+
+.col6
+{
+	width:50%;
+}
+
+.col7
+{
+	width:58.22%;
+}
+
+.col8
+{
+	width:66.44%;
+}
+
+.col9
+{
+	width:74.66%;
+}
+
+.col10
+{
+	width:82.88%;
+}
+
+.col11
+{
+	width:91.10%;
+}
+
+.col12
+{
+	width:100%;
+}
