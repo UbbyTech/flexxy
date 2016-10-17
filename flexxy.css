@@ -25,7 +25,7 @@ body
 }
 
 nav, footer, header, 
-section, article
+section, article, section
 {
 	display: block;
 }
@@ -39,8 +39,9 @@ figure, figcaption
 h1, h2, h3,
 h4, h5, h6
 {
-	font-family: Arial;
-	text-align: justify;
+	font-family:Arial;
+	text-align:justify;
+	color:#111B16;
 }
 
 p
@@ -72,7 +73,8 @@ a:hover, a:active
 
 ul
 {
-	list-style:none;	
+	list-style:none;
+	padding:0;	
 } 
 
 code
@@ -251,3 +253,42 @@ input
 {
 	width:100%;
 }
+
+
+
+/* ### ALL NAV setting below. */
+
+
+/*  basic nav styling for flexxy */
+
+.topNav
+{
+	width:100%;
+	height:75px;
+	background:#141414;
+	padding:0;
+}
+
+.topNav ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.topNav ul li
+{
+	float:left;
+}
+
+
+/*  basic fixed overlay nav styling for flexxy */
+
+
+
+
+/*  drop-down nav styling for flexxy */
+
+
+
+/*  vertical slide-out nav styling for flexxy */
