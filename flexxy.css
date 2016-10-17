@@ -281,6 +281,25 @@ input
 	float:left;
 }
 
+.topNav ul li a 
+{
+	padding:0;
+	margin:0;
+	line-height:75px;
+	width:10%;
+	border-left:1px solid none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#ECEAE3;
+}
+
+.topNav ul li a:hover, a:active
+{
+	background:#D44718;
+	color:#321E1E;
+	font-family:Tahoma, Verdana, Segoe, sans-serif;
+	font-size:1.4em;
+}
 
 /*  basic fixed overlay nav styling for flexxy */
 
