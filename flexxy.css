@@ -324,14 +324,27 @@ input
 .dd-nav 
 {
  	width:100%;
+ 	position:fixed;
+ 	top:0;
+ 	z-index:10;
 	background:#ccc;
 }
 
-.dd nav ul
+.dd-nav ul
 {
-	position:relative;
 	list-style:none;
 }	
+
+.dd-nav ul li
+{
+	float:left;
+	width:10%;
+}
+
+.dd-nav ul li a
+{
+	
+}
 
 
 /*  drop-down nav styling for flexxy */
