@@ -374,7 +374,10 @@ input
 .dd-nav,
 .dd-nav ul,
 .dd-nav ul li,
-.dd-nav ul li a
+.dd-nav ul li a, 
+.dd-nav ul ul,
+.dd-nav ul ul li,
+.dd-nav ul ul li a
 {
 	margin:0;
 	padding:0;
@@ -409,6 +412,7 @@ input
 {
 	line-height:45px;
 	color:#ccc;
+	text-align:center;
 }
 
 .dd-nav ul li a:hover, a:active
@@ -416,26 +420,47 @@ input
 
 }
 
-.dd-nav ul ul
+.dd-nav ul ul	/* nested unordered list properties */
 {
 	display:none;
 	list-style:none;
 }
 
-.dd-nav li:hover ul
+.dd-nav ul ul  
 {
-	display:block;
+	position:absolute;
+	top:45px;
+	left:0;
 
 }
 
-.dd-nav ul ul li
+.dd-nav li:hover ul
 {
+	display:block;
+	
+}
 
+.dd-nav ul ul > li 
+{
+	
+	width:90px;
+	background-color:#261B25;
 }
 
 .dd-nav ul ul li a
 {
-	color:#000;
+	color:#39DB17;
+	font-family:Tahoma, Verdana, Segoe, sans-serif;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	border-bottom:1px solid #ccc;
+
+}
+
+.dd-nav ul ul li:last-child a 
+{
+	border-bottom:none;
 }
 
 .dd-nav ul ul li a:hover, a:active
