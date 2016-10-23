@@ -386,23 +386,29 @@ input
 .dd-nav
 {
 	width:100%;
+	height:45px;
+	background:-webkit-linear-gradient(120deg, #241029 35.5%, #AD8AC1 40%);
+	background:-moz-linear-gradient(120deg, #241029 35.5%, #AD8AC1 40%);
+	background:-o-linear-gradient(120deg, #241029 35.5%, #AD8AC1 40%);
+	background:linear-gradient(120deg, #241029 35.5%, #AD8AC1 40%);
 }
 
 .dd-nav ul
 {
 	list-style:none;
-	position:relative;
 }
 
 .dd-nav ul li
 {
+	position:relative;
 	float:left;
-	display:inline;
+	width:10%;
 }
 
 .dd-nav ul li a
 {
-
+	line-height:45px;
+	color:#ccc;
 }
 
 .dd-nav ul li a:hover, a:active
@@ -416,6 +422,12 @@ input
 	list-style:none;
 }
 
+.dd-nav li:hover ul
+{
+	display:block;
+
+}
+
 .dd-nav ul ul li
 {
 
@@ -423,7 +435,7 @@ input
 
 .dd-nav ul ul li a
 {
-
+	color:#000;
 }
 
 .dd-nav ul ul li a:hover, a:active
