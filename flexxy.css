@@ -413,11 +413,14 @@ input
 	line-height:45px;
 	color:#ccc;
 	text-align:center;
+	font-family:Tahoma, Verdana, Segoe, sans-serif;
+	font-weight:bold;
 }
 
 .dd-nav ul li a:hover, a:active
 {
-
+	background:#DCCBDC;
+	color:#651264;
 }
 
 .dd-nav ul ul	/* nested unordered list properties */
@@ -437,10 +440,9 @@ input
 .dd-nav li:hover ul
 {
 	display:block;
-	
 }
 
-.dd-nav ul ul > li 
+.dd-nav ul ul li 
 {
 	
 	width:90px;
@@ -452,7 +454,6 @@ input
 	color:#39DB17;
 	font-family:Tahoma, Verdana, Segoe, sans-serif;
 	font-weight:bold;
-	display:block;
 	text-align:center;
 	border-bottom:1px solid #ccc;
 
@@ -465,7 +466,9 @@ input
 
 .dd-nav ul ul li a:hover, a:active
 {
-
+	background:#A2E395;
+	color:#000000;
+	font-weight:bold;
 }
 
 
