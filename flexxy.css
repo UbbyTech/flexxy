@@ -474,3 +474,14 @@ input
 
 
 /*  vertical slide-out nav styling for flexxy */
+
+.slide-nav
+{
+	display:none;
+	width:200px;
+	height:auto;
+	background:#00000;
+}
+
+
+
