@@ -478,10 +478,30 @@ input
 .slide-nav
 {
 	display:none;
-	width:200px;
-	height:auto;
-	background:#00000;
+}
+
+.slide-nav ul
+{
+
+} 
+
+.slide-nav ul li
+{
+
+}
+
+.slide-nav ul li a
+{
+	color:#ccc;
 }
 
 
+
+.openNav[type="checkbox"]:checked .slide-nav
+{
+	display:block;
+	width:200px;
+	height:auto;
+	background:#000;
+}
 
