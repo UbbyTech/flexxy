@@ -478,7 +478,11 @@ input
 
 .slide-nav
 {
-	display:none;
+	position:absolute;
+	width:240px;
+	height:100%;
+	left:-240px;
+	background:#000000;
 }
 
 .slide-nav ul
@@ -490,22 +494,37 @@ input
 
 .slide-nav ul li
 {
-	width:200px;
-	max-height:auto;
+	
 }
 
 .slide-nav ul li a
 {
 	color:#ccc;
+	text-align:center;
+	padding:15px 0;
 }
 
 /* setting below for the checkbox to slide open vertical nav upon checked */
 
-.openNav[type="checkbox"]:checked .slide-nav
+#openNav
 {
-	display:block;
-	width:200px;
-	height:auto;
-	background:#000;
+	display:none;
 }
 
+
+
+#openNav:checked ~ .slide-nav
+{
+	position:absolute;
+	left:0;
+}
+
+.menu-icon
+{
+	cursor:pointer;
+	float:left;
+	clear:both;
+	background:yellow;
+	padding:15px;
+	border-radius:4px;
+}
