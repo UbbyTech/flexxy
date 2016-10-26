@@ -276,6 +276,8 @@ input
 /* ### ALL NAV setting below. */
 
 
+
+
 /*  basic nav styling for flexxy */
 
 .topNav
@@ -317,6 +319,11 @@ input
 	font-family:Tahoma, Verdana, Segoe, sans-serif;
 	font-size:1.4em;
 }
+
+
+
+
+
 
 /*  basic fixed overlay nav styling for flexxy */
 
@@ -369,6 +376,11 @@ input
 	font-weight:bold;
 	text-overflow:clip;
 }
+
+
+
+
+
 
 /*  drop-down nav styling for flexxy */
 
@@ -481,8 +493,15 @@ input
 	position:absolute;
 	width:240px;
 	height:100%;
+	top:0;
 	left:-240px;
+	float:left;
 	background:#000000;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .slide-nav ul
@@ -502,6 +521,7 @@ input
 	color:#ccc;
 	text-align:center;
 	padding:15px 0;
+	border-bottom:3px solid #ccc;
 }
 
 /* setting below for the checkbox to slide open vertical nav upon checked */
@@ -512,19 +532,23 @@ input
 }
 
 
-
 #openNav:checked ~ .slide-nav
 {
 	position:absolute;
 	left:0;
+
+
 }
+
 
 .menu-icon
 {
+	display:block;
 	cursor:pointer;
 	float:left;
-	clear:both;
 	background:yellow;
 	padding:15px;
 	border-radius:4px;
 }
+
+
