@@ -482,12 +482,15 @@ input
 
 .slide-nav ul
 {
-
+	margin:0;
+	padding:0;
+	list-style:none;
 } 
 
 .slide-nav ul li
 {
-
+	width:200px;
+	max-height:auto;
 }
 
 .slide-nav ul li a
@@ -495,7 +498,7 @@ input
 	color:#ccc;
 }
 
-
+/* setting below for the checkbox to slide open vertical nav upon checked */
 
 .openNav[type="checkbox"]:checked .slide-nav
 {
