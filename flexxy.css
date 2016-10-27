@@ -488,7 +488,7 @@ input
 
 /*  vertical slide-out nav styling for flexxy */
 
-.slide-nav
+.left-slide-nav
 {
 	position:absolute;
 	width:240px;
@@ -504,19 +504,19 @@ input
 	transition: all .3s ease-in-out;
 }
 
-.slide-nav ul
+.left-slide-nav ul
 {
 	margin:0;
 	padding:0;
 	list-style:none;
 } 
 
-.slide-nav ul li
+.left-slide-nav ul li
 {
 	
 }
 
-.slide-nav ul li a
+.left-slide-nav ul li a
 {
 	color:#ccc;
 	text-align:center;
@@ -532,7 +532,7 @@ input
 }
 
 
-#openNav:checked ~ .slide-nav
+#openNav:checked ~ .left-slide-nav
 {
 	position:absolute;
 	left:0;
