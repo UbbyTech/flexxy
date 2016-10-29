@@ -513,7 +513,8 @@ input
 
 .left-slide-nav ul li
 {
-	
+	margin:0;
+	padding:0;
 }
 
 .left-slide-nav ul li a
@@ -546,8 +547,9 @@ input
 	display:block;
 	cursor:pointer;
 	float:left;
-	background:yellow;
-	padding:15px;
+	background:#484444;
+	color:#ccc;
+	padding:15px 5px;
 	border-radius:4px;
 }
 
