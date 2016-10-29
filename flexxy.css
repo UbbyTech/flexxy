@@ -209,7 +209,9 @@ input
 	margin-right:10px;
 	float:left;
 }
-
+                            /* need to fix columns, because the math
+                            is not checking out when its col6 and 
+                            above */
 
 .col1
 {
@@ -239,6 +241,7 @@ input
 .col6
 {
 	width:50%;
+
 }
 
 .col7
@@ -532,6 +535,25 @@ input
 	display:none;
 }
 
+.menu-icon
+{
+	display:block;
+	position:relative;
+	left:0;
+	cursor:pointer;
+	float:left;
+	background:#484444;
+	color:#ccc;
+	padding:15px 20px;
+	border-radius:4px;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+}
+
 
 #openNav:checked ~ .left-slide-nav
 {
@@ -541,16 +563,12 @@ input
 
 }
 
-
-.menu-icon
+#openNav:checked ~ .menu-icon
 {
-	display:block;
-	cursor:pointer;
-	float:left;
-	background:#484444;
-	color:#ccc;
-	padding:15px 5px;
-	border-radius:4px;
+	position:relative;
+	left:240px;
 }
+
+
 
 
