@@ -385,6 +385,7 @@ input
 
 
 
+
 /*  drop-down nav styling for flexxy */
 
 .dd-nav,
@@ -489,6 +490,11 @@ input
 
 
 
+
+
+
+
+
 /*  vertical slide-out nav styling for flexxy */
 
 .left-slide-nav
@@ -530,12 +536,12 @@ input
 
 /* setting below for the checkbox to slide open vertical nav upon checked */
 
-#openNav
+#openNav   /* will be made a general id for all slide-out navs */
 {
 	display:none;
 }
 
-.menu-icon
+.menu-icon-left
 {
 	display:block;
 	position:relative;
@@ -563,7 +569,7 @@ input
 
 }
 
-#openNav:checked ~ .menu-icon
+#openNav:checked ~ .menu-icon-left
 {
 	position:relative;
 	left:240px;
@@ -572,3 +578,91 @@ input
 
 
 
+
+
+
+
+
+/* horizonal slide-out nav styling for flexxy */
+
+.top-slide-nav
+{
+	position:absolute;
+	width:100%;
+	height:240px;
+	left:0;
+	top:-240px;
+	float:left;
+	background:#000000;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.top-slide-nav ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+
+.top-slide-nav ul li
+{
+	margin:0;
+	padding:0;
+	float:left;
+	width:10%;
+	border-right:5px solid #FCFCFC;
+}
+
+.top-slide-nav ul li a
+{
+	margin:0;
+	padding:0;
+	color:#ccc;
+	text-align:center;
+	padding:15px 0;
+	line-height:240px;
+}
+
+.top-slide-nav ul li a:last-child
+{
+	border-right:none;
+}
+
+
+.menu-icon-top
+{
+	display:block;
+	position:relative;
+	left:50%;
+	cursor:pointer;
+	float:left;
+	background:#484444;
+	color:#ccc;
+	padding:15px 20px;
+	border-radius:4px;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+}
+
+#openNav:checked ~ .top-slide-nav
+{
+	position:absolute;
+	top:0;
+
+
+}
+
+#openNav:checked ~ .menu-icon-top
+{
+	position:relative;
+	top:240px;
+}
