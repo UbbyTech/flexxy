@@ -544,6 +544,7 @@ input
 	height:100%;
 	top:0;
 	left:-240px;
+	z-index: 10;
 	float:left;
 	background:#000000;
 
@@ -627,6 +628,7 @@ input
 	left:0;
 	top:-240px;
 	float:left;
+	z-index: 10;
 	background:#000000;
 
 	-webkit-transition: all .3s ease-in-out;
@@ -708,35 +710,50 @@ input
 
 /* footer styling */
 
-footer .basic-footer
+.basic-footer
 {
 	width:100%;
-	height:55px;
+	height:45px;
 	background:#745F5F;
 	position:absolute;
 	bottom:0;
+	right:0;
+	left:0;
 }
 
 
 
-footer .fixed-footer
+.fixed-footer
 {
 	width:100%;
-	height:85px;
-	background:#0B0016;
+	height:60px;
+	background:#0F0B0B;
+	position:fixed;
+	bottom:0;
 }
 
-footer .mini-footer
+.mini-footer
 {
 
 }
 
-footer .mini-fixed
+.mini-fixed
 {
-	
+
 }
 
 
+.basic-footer p,
+.mini-footer p
+{
+	text-align:left;
+}
+
+.fixed-footer p,
+.mini-fixed p
+{
+	text-align:center;
+}
 
 
 
