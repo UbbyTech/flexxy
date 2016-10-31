@@ -121,6 +121,11 @@ input
 	font-style:italic;
 }
 
+#openNav 
+{
+	display:none;
+}
+
 
 
 /* baseline styling ends here ----> */
@@ -569,12 +574,6 @@ input
 	border-bottom:3px solid #ccc;
 }
 
-/* setting below for the checkbox to slide open vertical nav upon checked */
-
-#openNav   /* will be made a general id for all slide-out navs */
-{
-	display:none;
-}
 
 .menu-icon-left
 {
@@ -692,8 +691,6 @@ input
 {
 	position:absolute;
 	top:0;
-
-
 }
 
 #openNav:checked ~ .menu-icon-top
@@ -701,3 +698,78 @@ input
 	position:relative;
 	top:240px;
 }
+
+
+
+
+
+
+
+
+/* footer styling */
+
+footer .basic-footer
+{
+	width:100%;
+	height:55px;
+	background:#745F5F;
+	position:absolute;
+	bottom:0;
+}
+
+
+
+footer .fixed-footer
+{
+	width:100%;
+	height:85px;
+	background:#0B0016;
+}
+
+footer .mini-footer
+{
+
+}
+
+footer .mini-fixed
+{
+	
+}
+
+
+
+
+
+
+/* styling for alert messages */
+
+
+a .success
+{
+
+}
+
+a .alert
+{
+
+}
+
+a .error
+{
+
+}
+
+a .danger
+{
+
+}
+
+a .reminder
+{
+
+}
+
+
+
+
+
