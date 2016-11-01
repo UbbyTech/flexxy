@@ -773,27 +773,27 @@ input
 
 
 
-a .success
+.alert .success
 {
 
 }
 
-a .alert
+.alert .alert
 {
 
 }
 
-a .error
+.alert .error
 {
 
 }
 
-a .danger
+.alert .danger
 {
 
 }
 
-a .reminder
+.alert .reminder
 {
 
 }
