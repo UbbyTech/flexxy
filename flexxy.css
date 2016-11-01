@@ -734,12 +734,22 @@ input
 
 .mini-footer
 {
-
+	width:50%;
+	height:45px;
+	background:#745F5F;
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
 }
 
 .mini-fixed
 {
-
+	width:50%;
+	height:60px;
+	background:#0F0B0B;
+	position:fixed;
+	bottom:0;
 }
 
 
@@ -759,6 +769,8 @@ input
 
 
 /* styling for alert messages */
+
+
 
 
 a .success
