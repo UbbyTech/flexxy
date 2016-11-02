@@ -770,36 +770,34 @@ input
 
 /* styling for alert messages */
 
-.alert
+.alert-default
 {
 	width:26.77777%;
 	padding:0;
 	margin:0 auto;
 	background:#95B789;
+	height:35px;
+	opacity:0.7;
 }
 
 
-.alert .success
+.alert-success
 {
 
 }
 
-.alert .alert
+.alert-error
+{
+	background:#DF3131;
+	opacity:0.7;
+}
+
+.alert-danger
 {
 
 }
 
-.alert .error
-{
-
-}
-
-.alert .danger
-{
-
-}
-
-.alert .reminder
+.alert-reminder
 {
 
 }
