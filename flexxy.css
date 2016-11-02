@@ -760,7 +760,7 @@ input
 }
 
 .fixed-footer p,
-.mini-fixed p
+.mini-fixedw p
 {
 	text-align:center;
 }
@@ -770,7 +770,13 @@ input
 
 /* styling for alert messages */
 
-
+.alert
+{
+	width:26.77777%;
+	padding:0;
+	margin:0 auto;
+	background:#95B789;
+}
 
 
 .alert .success
