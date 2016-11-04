@@ -121,6 +121,15 @@ input
 	font-style:italic;
 }
 
+button
+{
+	font-family:Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+}
+
 #openNav 
 {
 	display:none;
@@ -837,7 +846,7 @@ input
 
 
 
-button .default
+button.default
 {
 	display:block;
 	background:#ccc;
@@ -845,3 +854,34 @@ button .default
 	margin-top:3px;
 }
 
+button.submit
+{
+	display:block;
+	background:#5FD512;
+	padding:5.5px 7px;
+	margin-top:3px;
+}
+
+button.upload
+{
+	display:block;
+	background:#908D8D;
+	padding:5.5px 7px;
+	margin-top:3px;
+}
+
+button.destroy
+{
+	display:block;
+	background:#C50808;
+	padding:5.5px 7px;
+	margin-top:3px;
+}
+
+button.update
+{
+	display:block;
+	background:#B139C2;
+	padding:5.5px 7px;
+	margin-top:3px;
+}
