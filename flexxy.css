@@ -783,26 +783,41 @@ input
 
 .alert-success
 {
-
+	width:26.77777%;
+	padding:0;
+	margin:0 auto;
+	background:#9CD360;
+	height:35px;
+	opacity:0.7;
 }
 
 .alert-error
 {
-	background:#DF3131;
+	width:26.77777%;
+	padding:0;
+	margin:0 auto;
+	background:#AC1F1C;
+	height:35px;
 	opacity:0.7;
 }
 
 .alert-danger
 {
-
+	width:26.77777%;
+	padding:0;
+	margin:0 auto;
+	background:#400303;
+	height:35px;
+	opacity:0.7;
 }
 
 .alert-reminder
 {
-
+	width:26.77777%;
+	padding:0;
+	margin:0 auto;
+	background:#AE2D89;
+	height:35px;
+	opacity:0.7;
 }
-
-
-
-
 
