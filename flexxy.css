@@ -49,11 +49,21 @@ figcaption
 }
 
 h1, h2, h3,
-h4, h5, h6
 {
-	font-family:Arial;
+	font-family:"Rockwell Extra Bold", "Rockwell Bold", monospace;
+	font-style:inherit;
 	text-align:justify;
 	color:#111B16;
+	opacity:0.9;
+}
+
+h4, h5, h6
+{
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style:normal;
+	text-align:justify;
+	color:#191919;
+	opacity:0.9;
 }
 
 p
