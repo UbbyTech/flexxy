@@ -895,3 +895,45 @@ button.update
 	padding:5.5px 7px;
 	margin-top:3px;
 }
+
+
+
+
+
+
+
+
+/* image grid system */
+
+
+
+.img-flex-holder
+{
+	-webkit-display:flex;
+	display:flex;
+	flex-direction:row;
+ 	border:1px solid #ccc;
+	width:100%;
+	height:auto;
+}
+
+.img-flex-holder img
+{
+
+}
+
+.img-flex-holder img ~ figcaption
+{
+
+
+}
+
+
+.img-flex-holder h1, h2, h3, h4, h5, h6
+{
+
+}
+
+
+
+
