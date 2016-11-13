@@ -48,7 +48,7 @@ figcaption
 	margin-top: 0.63em;
 }
 
-h1, h2, h3,
+h1, h2, h3
 {
 	font-family:"Rockwell Extra Bold", "Rockwell Bold", monospace;
 	font-style:inherit;
@@ -721,6 +721,50 @@ button
 }
 
 
+
+
+/* slide panel content styling */
+
+
+.sp-right
+{
+	width:175px;
+	height:455px;
+	display:block;
+
+
+	position:fixed;
+	z-index:5;
+	right:0;
+	top: 50px;
+
+
+	background:#3173CC;
+	-webkit-border-radius: 15px 0px 0px 15px;
+	-moz-border-radius: 15px 0px 0px 15px;
+	-o-border-radius: 15px 0px 0px 15px;
+	border-radius: 15px 0px 0px 15px;
+
+	
+	
+	-webkit-box-shadow: inset 5px 5px #000000;
+	-moz-box-shadow: inset 5px 5px #000000;
+	-o-box-shadow: inset 5px 5px #000000;
+	box-shadow: inset 5px 5px #000000;
+
+}
+ 
+
+.sp-right h1
+{
+
+}
+
+
+.sp-right .smi
+{
+	
+}
 
 
 
