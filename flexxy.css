@@ -755,7 +755,7 @@ button
 }
  
 
-.sp-right h1
+.sp-right .header
 {
 
 }
@@ -766,6 +766,31 @@ button
 	
 }
 
+.sp-right p
+{
+
+}
+
+
+ .sp-left
+ {
+
+ }
+
+ .sp-left .header
+ {
+
+ }
+
+ .sp-left .smi
+ {
+
+ }
+
+ .sp-left p
+ {
+ 	
+ }
 
 
 
