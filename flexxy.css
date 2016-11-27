@@ -729,11 +729,16 @@ button
 
 .sp-right
 {
+	padding:0;
 	width:175px;
 	height:455px;
-	display:block;
-	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+
+
 
 	position:fixed;
 	z-index:5;
@@ -762,6 +767,7 @@ button
 	position:relative;
 	top:10px;
 	margin:0;
+	clear:both;
 	text-align:center;
 	font-family:Verdana, sans-serif;
 	font-weight:bold;
@@ -770,10 +776,15 @@ button
 }
 
 
-.sp-right .smi
+.sp-right .smi img
 {
-	height:20px;
-	width:35px;
+	height:50px;
+	width:70px;
+
+	padding-left:17px;
+	padding-top:10px;
+	
+	
 }
 
 .sp-right p
@@ -802,7 +813,10 @@ button
 
  .sp-left p
  {
- 	
+ 	text-align:justify;
+	font-family:Geneva, Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
  }
 
 
