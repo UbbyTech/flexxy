@@ -159,6 +159,7 @@ button
 {
 	display:block;
 	padding:0;
+	width:100%;
 }
 
 .flex-container
@@ -167,6 +168,8 @@ button
 	display:-moz-flex;
 	display:-o-flex;
 	-display:flex;
+	padding:0;
+	width:100%;
 }
 
 @media(min-width: 420px)
