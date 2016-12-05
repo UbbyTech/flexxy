@@ -15,7 +15,9 @@
 
 html
 {
-	font-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust:100%;
+	-o-text-size-adjust:100%;
 }
 
 body
@@ -28,8 +30,7 @@ body
 nav, footer, header, 
 section, article, section
 {
-	di
-splay: block;
+	display: block;
 }
 
 video, audio
@@ -148,7 +149,7 @@ button
 
 
 
-/* baseline styling ends here ----> */
+/* general styling ends here ----> */
 
 
 
@@ -159,7 +160,7 @@ button
 {
 	display:block;
 	padding:0;
-	width:100%;
+	min-width:100%;
 }
 
 .flex-container
@@ -252,15 +253,21 @@ button
 
 .row
 {
-	padding:-15px;
-	padding:-15px;
+	height:auto;
+	width:100%;
 }
 
 .row::after
 {
-	content:"";
+	content:' ';
 	clear:both;
-	display:block;
+	display:table;
+}
+
+.row::before, .row::after
+{
+	content: ' ';
+	display:table;
 }
 
 
@@ -268,9 +275,9 @@ button
 .col5, .col6, .col7, .col8,
 .col9, .col10, .col11, .col12
 {
-	margin-left:10px;
-	margin-right:10px;
+	
 	float:left;
+	column-gap: 10px;
 }
                             /* need to fix columns, because the math
                             is not checking out when its col6 and 
@@ -294,6 +301,7 @@ button
 .col4
 {
 	width:35%;
+	column-gap: 10px;
 }
 
 .col5
@@ -998,6 +1006,7 @@ button
 button.default
 {
 	display:block;
+	border:none;
 	background:#ccc;
 	padding:5.5px 7px;
 	margin-top:3px;
@@ -1006,6 +1015,7 @@ button.default
 button.submit
 {
 	display:block;
+	border:none;
 	background:#5FD512;
 	padding:5.5px 7px;
 	margin-top:3px;
@@ -1014,6 +1024,7 @@ button.submit
 button.upload
 {
 	display:block;
+	border:none;
 	background:#908D8D;
 	padding:5.5px 7px;
 	margin-top:3px;
@@ -1022,6 +1033,7 @@ button.upload
 button.destroy
 {
 	display:block;
+	border:none;
 	background:#C50808;
 	padding:5.5px 7px;
 	margin-top:3px;
@@ -1030,6 +1042,7 @@ button.destroy
 button.update
 {
 	display:block;
+	border:none;
 	background:#B139C2;
 	padding:5.5px 7px;
 	margin-top:3px;
