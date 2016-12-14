@@ -30,7 +30,7 @@ body
 nav, footer, header,
 section, article, section
 {
-	display: block;
+	display:block;
 }
 
 video, audio
@@ -165,11 +165,7 @@ button
 
 .flex-container
 {
-	display:-webkit-flex;
-	display:-moz-flex;
-	display:-o-flex;
-	-display:flex;
-	padding:0;
+	display:flex;
 	width:100%;
 }
 
@@ -281,7 +277,7 @@ button
 
 	 /* floating has been removed because it compute flex column to display
 	 float:left; */
-	margin left:5px;
+
 }
                             /* need to fix columns, because the math
                             is not checking out when its col6 and
@@ -304,7 +300,7 @@ button
 
 .col4
 {
-	width:35%;
+	width:33.3333333%;
 }
 
 .col5
