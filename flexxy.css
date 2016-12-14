@@ -255,6 +255,9 @@ button
 {
 	height:auto;
 	width:100%;
+	display:flex;
+	display:-webkit-flex;
+	display:-moz-flex;
 }
 
 .row::after
@@ -276,7 +279,8 @@ button
 .col9, .col10, .col11, .col12
 {
 
-	float:left;
+	 /* floating has been removed because it compute flex column to display
+	 float:left; */
 	margin left:5px;
 }
                             /* need to fix columns, because the math
@@ -301,7 +305,6 @@ button
 .col4
 {
 	width:35%;
-	column-gap: 10px;
 }
 
 .col5
