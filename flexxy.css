@@ -345,6 +345,50 @@ button
 }
 
 
+/* grid settings closed */
+
+
+
+
+
+
+/* imagees   */
+
+
+img-circle
+{
+	width:100px;
+	height:100px;
+	border:1px solid #000000;
+	-webkit-border-radius:15px 15px 15px 15px;
+	-moz-	border-radius:15px 15px 15px 15px;
+	-o-	border-radius:15px 15px 15px 15px;
+}
+
+
+
+img-square
+{
+
+}
+
+
+img-oval
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ### ALL NAV setting below. */
 
