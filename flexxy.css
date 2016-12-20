@@ -1114,17 +1114,29 @@ button.update
 
 .img-flex-holder img
 {
-
+	float:left;
+	width:100px;
+	height:100px;
+	border:2px solid #000000;
+	-webkit-border-radius:17px 17px 17px 17px;
+	-moz--border0radius:17px 17px 17px 17px;
+	-o-border-radius:17px 17px 17px 17px;
+	border-radius:17px 17px 17px 17px;
 }
 
 .img-flex-holder img ~ figcaption
 {
-
-
+	padding-top:2px;
+	
+	
 }
 
 
 .img-flex-holder h1, h2, h3, h4, h5, h6
 {
+	text-align:justify;
 
+	font-family:Verdana, geneva, sans-serif;
+	font-style:italic;
+	font-weight:bold;
 }
