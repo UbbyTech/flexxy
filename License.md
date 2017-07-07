@@ -1,5 +1,11 @@
 MIT License
 
+
+ 	Licensed under MIT (https://github.com/ubbytech/flexxy)
+	# Copyright 2016 UbbyTech, Inc.
+	# Copyright 2016 The Flexxy Authors.
+	# COpyright 2016 Joseph Bourne.
+	
 Copyright (c) 2016 UbbyTech
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
